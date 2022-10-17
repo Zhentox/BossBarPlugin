@@ -1,0 +1,28 @@
+Config:
+    
+    #############################################
+    # +---------------------------------------+ #
+    # |           BossBar - Config            | #
+    # +---------------------------------------+ #
+    #############################################
+
+    # Mundos donde se quiera mostrar la BossBar. Es importante poner
+    # este atributo como un string serparado por comas (","). 
+    # Por ejemplo: 'world_nether_exploracion, world_end_exploracion'.
+    worlds: 'world_nether, world_the_end'
+
+    # Mensaje que se quiera mostrar arriba de la BossBar. Por defecto el mensaje sera
+    # blanco pero se puede personalizar 100% con los codigo de colores: 0-9 or a-f.
+    # Por ejemplo: '&bMundos de exploración/recursos'.
+    bossBarText: 'Este es un mensaje'
+
+    # Color de barra que se quiera establecer en la BossBar. Por defecto el color es
+    # blanco pero se puede modificar a los siguientes colores: 
+    # 'Blue', 'Green', 'Pink', 'Purple', 'Red', 'White', 'Yellow'.
+    # Por ejemplo: 'White'.
+    barColor: 'White'
+
+    # Estilo de barra que se quiera establecer en la BossBar. Por defecto el estilo es
+    # solido pero se puede modificar a los siguientes estilos: 
+    # 'Segmented:10', 'Segmented:12', 'Segmented:20', 'Segmented:6', 'Solid'.
+    barStyle: 'Solid'
